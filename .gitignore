@@ -16,3 +16,5 @@ db/top_level.asm.qmsg
 db/top_level.tiscmp.slow_1200mv_0c.ddb
 incremental_db/compiled_partitions/top_level.root_partition.map.cdb
 incremental_db/compiled_partitions/top_level.root_partition.map.dpi
+db/Lab_1.quiproj.2932.rdr.flock
+db/top_level.db_info
