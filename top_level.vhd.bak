@@ -14,12 +14,10 @@ end top_level;
 
 architecture Behavioral of top_level is
 
-Signal Num_Hex0, Num_Hex1, Num_Hex2, Num_Hex3, Num_Hex4, Num_Hex5 : STD_LOGIC_VECTOR (3 downto 0):= (others=>'0');
+Signal Num_Hex0, Num_Hex1, Num_Hex2, Num_Hex3, Num_Hex4, Num_Hex5 : STD_LOGIC_VECTOR (3 downto 0):= (others=>'0');   
 Signal DP_in, Blank:  STD_LOGIC_VECTOR (5 downto 0);
 Signal switch_inputs: STD_LOGIC_VECTOR (12 downto 0);
 Signal bcd:           STD_LOGIC_VECTOR(15 DOWNTO 0);
---Added ports for multiplexer
-signal in1, in2, mux_out, switch_inputs_ext:		 STD_LOGIC_VECTOR (15 downto 0);
 
 Component SevenSegment is
     Port( Num_Hex0,Num_Hex1,Num_Hex2,Num_Hex3,Num_Hex4,Num_Hex5 : in  STD_LOGIC_VECTOR (3 downto 0);
@@ -27,17 +25,6 @@ Component SevenSegment is
           DP_in,Blank                                           : in  STD_LOGIC_VECTOR (5 downto 0)
 			);
 End Component ;
-
---Added Multiplexer
-Component MUX2TO1 is
-	Port(
-		in1	  : IN  STD_LOGIC_VECTOR(15 downto 0);							 --input1 to Multiplexer
-		in2	  : IN  STD_LOGIC_VECTOR(15 downto 0);							 --input2 to Multiplexer
-		s		  : IN  STD_LOGIC;							 
-		mux_out : OUT STD_LOGIC_VECTOR(15 downto 0)						 --output from Multiplexer
-		);
-End Component;
---End of Multiplexer
 
 Component binary_bcd IS
    PORT(
@@ -49,15 +36,15 @@ Component binary_bcd IS
 END Component;
 
 begin
-   Num_Hex0 <= mux_out(3  downto  0); 
-   Num_Hex1 <= mux_out(7  downto  4);
-   Num_Hex2 <= mux_out(11 downto  8);
-   Num_Hex3 <= mux_out(15 downto 12);
+   Num_Hex0 <= bcd(3  downto  0); 
+   Num_Hex1 <= bcd(7  downto  4);
+   Num_Hex2 <= bcd(11 downto  8);
+   Num_Hex3 <= bcd(15 downto 12);
    Num_Hex4 <= "0000";
-   Num_Hex5 <= "0000";
+   Num_Hex5 <= "0000";   
    DP_in    <= "000000"; -- position of the decimal point in the display (1=LED on,0=LED off)
    Blank    <= "110000"; -- blank the 2 MSB 7-segment displays (1=7-seg display off, 0=7-seg display on)
-   in1		<= bcd(15 downto 0);   
+             
                 
 SevenSegment_ins: SevenSegment  
 
@@ -80,7 +67,6 @@ SevenSegment_ins: SevenSegment
  
 LEDR(9 downto 0) <=SW(9 downto 0); -- gives visual display of the switch inputs to the LEDs on board
 switch_inputs <= "00000" & SW(7 downto 0);
-switch_inputs_ext <= "00000000" & SW(7 downto 0);
 
 binary_bcd_ins: binary_bcd                               
    PORT MAP(
@@ -89,13 +75,4 @@ binary_bcd_ins: binary_bcd
       binary   => switch_inputs,    
       bcd      => bcd         
       );
-
-MUX2TO1_ins: MUX2TO1
-	PORT MAP(
-		in1 => in1,
-		in2 => switch_inputs_ext,
-		s	 => sw(9),
-		mux_out => mux_out
-		);
-
 end Behavioral;
