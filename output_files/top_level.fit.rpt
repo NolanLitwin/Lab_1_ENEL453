@@ -1,5 +1,5 @@
 Fitter report for top_level
-Sat Oct 10 21:36:22 2020
+Sun Oct 11 11:44:34 2020
 Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
 
 
@@ -67,7 +67,7 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Fitter Summary                                                                   ;
 +------------------------------------+---------------------------------------------+
-; Fitter Status                      ; Successful - Sat Oct 10 21:36:22 2020       ;
+; Fitter Status                      ; Successful - Sun Oct 11 11:44:34 2020       ;
 ; Quartus Prime Version              ; 20.1.0 Build 711 06/05/2020 SJ Lite Edition ;
 ; Revision Name                      ; top_level                                   ;
 ; Top-level Entity Name              ; top_level                                   ;
@@ -1933,8 +1933,8 @@ Warning (169177): 12 pins must meet Intel FPGA requirements for 3.3-, 3.0-, and 
 Info (144001): Generated suppressed messages file C:/Users/Nolan Litwin/OneDrive - University of Calgary/Documents/ENEL 453/Lab_1/output_files/top_level.fit.smsg
 Info: Quartus Prime Fitter was successful. 0 errors, 91 warnings
     Info: Peak virtual memory: 6225 megabytes
-    Info: Processing ended: Sat Oct 10 21:36:22 2020
-    Info: Elapsed time: 00:00:07
+    Info: Processing ended: Sun Oct 11 11:44:34 2020
+    Info: Elapsed time: 00:00:06
     Info: Total CPU time (on all processors): 00:00:10
 
 

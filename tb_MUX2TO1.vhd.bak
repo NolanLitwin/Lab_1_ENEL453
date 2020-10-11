@@ -9,16 +9,16 @@ ARCHITECTURE behavior OF tb_MUX2TO1 IS
 -- Component Declaration for the UUT
 
    COMPONENT MUX2TO1 is
-   port ( in1     : in  std_logic_vector(15 downto 0);
-          in2     : in  std_logic_vector(15 downto 0);
+   port ( in1     : in  std_logic_vector(3 downto 0);
+          in2     : in  std_logic_vector(3 downto 0);
           s       : in  std_logic;
-          mux_out : out std_logic_vector(15 downto 0) 
+          mux_out : out std_logic_vector(3 downto 0) 
          );
    end COMPONENT;   
 
 	
     signal   s                : std_logic ;
-    signal   in1,in2, mux_out : std_logic_vector(15 downto 0);
+    signal   in1,in2, mux_out : std_logic_vector(3 downto 0);
     constant time_delay       : time := 20 ns;
     
     

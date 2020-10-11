@@ -1,5 +1,5 @@
 Analysis & Synthesis report for top_level
-Sat Oct 10 21:36:14 2020
+Sun Oct 11 11:44:27 2020
 Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
 
 
@@ -50,7 +50,7 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Sat Oct 10 21:36:14 2020       ;
+; Analysis & Synthesis Status        ; Successful - Sun Oct 11 11:44:27 2020       ;
 ; Quartus Prime Version              ; 20.1.0 Build 711 06/05/2020 SJ Lite Edition ;
 ; Revision Name                      ; top_level                                   ;
 ; Top-level Entity Name              ; top_level                                   ;
@@ -384,13 +384,10 @@ Encoding Type:  One-Hot
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
-    Info: Processing started: Sat Oct 10 21:36:07 2020
+    Info: Processing started: Sun Oct 11 11:44:20 2020
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Lab_1 -c top_level
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 12 of the 12 processors detected
-Info (12021): Found 2 design units, including 1 entities, in source file tb_mux2to1.vhd
-    Info (12022): Found design unit 1: tb_MUX2TO1-behavior File: C:/Users/Nolan Litwin/OneDrive - University of Calgary/Documents/ENEL 453/Lab_1/tb_MUX2TO1.vhd Line: 7
-    Info (12023): Found entity 1: tb_MUX2TO1 File: C:/Users/Nolan Litwin/OneDrive - University of Calgary/Documents/ENEL 453/Lab_1/tb_MUX2TO1.vhd Line: 4
 Info (12021): Found 2 design units, including 1 entities, in source file mux2to1.vhd
     Info (12022): Found design unit 1: MUX2TO1-BEHAVIOR File: C:/Users/Nolan Litwin/OneDrive - University of Calgary/Documents/ENEL 453/Lab_1/MUX2TO1.vhd Line: 12
     Info (12023): Found entity 1: MUX2TO1 File: C:/Users/Nolan Litwin/OneDrive - University of Calgary/Documents/ENEL 453/Lab_1/MUX2TO1.vhd Line: 4
@@ -441,9 +438,9 @@ Info (21057): Implemented 293 device resources after synthesis - the final resou
     Info (21059): Implemented 58 output pins
     Info (21061): Implemented 223 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 22 warnings
-    Info: Peak virtual memory: 4836 megabytes
-    Info: Processing ended: Sat Oct 10 21:36:14 2020
+    Info: Peak virtual memory: 4833 megabytes
+    Info: Processing ended: Sun Oct 11 11:44:27 2020
     Info: Elapsed time: 00:00:07
-    Info: Total CPU time (on all processors): 00:00:15
+    Info: Total CPU time (on all processors): 00:00:14
 
 
