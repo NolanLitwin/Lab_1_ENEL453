@@ -3,3 +3,16 @@ db/Lab_1.quiproj.7888.rdr.flock
 top_level.qws
 db/top_level.db_info
 db/top_level.db_info
+db/top_level.asm.qmsg
+db/prev_cmp_Lab_1.qmsg
+db/top_level.(0).cnf.cdb
+db/top_level.(0).cnf.hdb
+db/top_level.(2).cnf.cdb
+db/top_level.(2).cnf.hdb
+db/top_level.asm.qmsg
+*.hdb
+*.ddb
+*.ddb
+db/top_level.tiscmp.slow_1200mv_0c.ddb
+incremental_db/compiled_partitions/top_level.root_partition.map.cdb
+incremental_db/compiled_partitions/top_level.root_partition.map.dpi
