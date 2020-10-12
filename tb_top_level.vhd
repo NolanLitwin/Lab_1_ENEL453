@@ -52,18 +52,19 @@ begin
 
     clk_stim : process
     begin
-      clk <= not clk;
+      clk <= not clk; -- this process switches clock signal every 20ns
       wait for time_delay;
     end process;
     
     mode_stim : process
     begin
       SW(9) <= '0'; wait for time_delay * 2;
-      SW(9) <= '1'; wait for time_delay * 2;
+      SW(9) <= '1'; wait for time_delay * 2; -- switches the display mode from dec to hex every other clock cycle
+
     end process;
       
-    main_stim : process
-    begin
+    main_stim : process -- this process cycles through a variety of possible values for the switches,
+    begin               -- will display each in both display modes because mode_stim runs concurrently
     
       SW(8 downto 0) <= "000000000";
       wait for time_delay * 4;
