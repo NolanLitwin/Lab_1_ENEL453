@@ -1,0 +1,43 @@
+{C:/Users/benkr/Documents/actual thing/Lab_1_ENEL453/tb_MUX2TO1.vhd} {0 {vcom -work work -2002 -explicit -stats=none {C:/Users/benkr/Documents/actual thing/Lab_1_ENEL453/tb_MUX2TO1.vhd}
+** Warning: (vcom-14) Failed to open "C:/Users/benkr/Documents/actual thing/Lab_1_ENEL453/ModelSim_lab1.mpf" specified by the MODELSIM environment variable.
+No such file or directory. (errno = ENOENT)
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+** Error (suppressible): (vcom-19) Failed to access library 'work' at "work".
+No such file or directory. (errno = ENOENT)
+
+} {} {}} {C:/Users/benkr/Documents/actual thing/Lab_1_ENEL453/SevenSegment_decoder.vhd} {0 {vcom -work work -2002 -explicit -stats=none {C:/Users/benkr/Documents/actual thing/Lab_1_ENEL453/SevenSegment_decoder.vhd}
+** Warning: (vcom-14) Failed to open "C:/Users/benkr/Documents/actual thing/Lab_1_ENEL453/ModelSim_lab1.mpf" specified by the MODELSIM environment variable.
+No such file or directory. (errno = ENOENT)
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+** Error (suppressible): (vcom-19) Failed to access library 'work' at "work".
+No such file or directory. (errno = ENOENT)
+
+} {} {}} {C:/Users/benkr/Documents/actual thing/Lab_1_ENEL453/binary_bcd.vhd} {0 {vcom -work work -2002 -explicit -stats=none {C:/Users/benkr/Documents/actual thing/Lab_1_ENEL453/binary_bcd.vhd}
+** Warning: (vcom-14) Failed to open "C:/Users/benkr/Documents/actual thing/Lab_1_ENEL453/ModelSim_lab1.mpf" specified by the MODELSIM environment variable.
+No such file or directory. (errno = ENOENT)
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+** Error (suppressible): (vcom-19) Failed to access library 'work' at "work".
+No such file or directory. (errno = ENOENT)
+
+} {} {}} {C:/Users/benkr/Documents/actual thing/Lab_1_ENEL453/top_level.vhd} {0 {vcom -work work -2002 -explicit -stats=none {C:/Users/benkr/Documents/actual thing/Lab_1_ENEL453/top_level.vhd}
+** Warning: (vcom-14) Failed to open "C:/Users/benkr/Documents/actual thing/Lab_1_ENEL453/ModelSim_lab1.mpf" specified by the MODELSIM environment variable.
+No such file or directory. (errno = ENOENT)
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+** Error (suppressible): (vcom-19) Failed to access library 'work' at "work".
+No such file or directory. (errno = ENOENT)
+
+} {} {}} {C:/Users/benkr/Documents/actual thing/Lab_1_ENEL453/SevenSegment.vhd} {0 {vcom -work work -2002 -explicit -stats=none {C:/Users/benkr/Documents/actual thing/Lab_1_ENEL453/SevenSegment.vhd}
+** Warning: (vcom-14) Failed to open "C:/Users/benkr/Documents/actual thing/Lab_1_ENEL453/ModelSim_lab1.mpf" specified by the MODELSIM environment variable.
+No such file or directory. (errno = ENOENT)
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+** Error (suppressible): (vcom-19) Failed to access library 'work' at "work".
+No such file or directory. (errno = ENOENT)
+
+} {} {}} {C:/Users/benkr/Documents/actual thing/Lab_1_ENEL453/MUX2TO1.vhd} {0 {vcom -work work -2002 -explicit -stats=none {C:/Users/benkr/Documents/actual thing/Lab_1_ENEL453/MUX2TO1.vhd}
+** Warning: (vcom-14) Failed to open "C:/Users/benkr/Documents/actual thing/Lab_1_ENEL453/ModelSim_lab1.mpf" specified by the MODELSIM environment variable.
+No such file or directory. (errno = ENOENT)
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+** Error (suppressible): (vcom-19) Failed to access library 'work' at "work".
+No such file or directory. (errno = ENOENT)
+
+} {} {}}

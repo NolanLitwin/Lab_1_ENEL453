@@ -1,0 +1,302 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+Ebinary_bcd
+Z0 w1602447750
+Z1 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 84
+Z4 dC:/Users/benkr/Documents/actual thing/Lab_1_ENEL453
+Z5 8C:/Users/benkr/Documents/actual thing/Lab_1_ENEL453/binary_bcd.vhd
+Z6 FC:/Users/benkr/Documents/actual thing/Lab_1_ENEL453/binary_bcd.vhd
+l0
+L8 1
+V0:9zdOIA`o`LF2cmkOC^P3
+!s100 gQzX;=HeN]3[lj0[@2mb]2
+Z7 OV;C;2020.1;71
+32
+Z8 !s110 1602470218
+!i10b 1
+Z9 !s108 1602470218.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/benkr/Documents/actual thing/Lab_1_ENEL453/binary_bcd.vhd|
+Z11 !s107 C:/Users/benkr/Documents/actual thing/Lab_1_ENEL453/binary_bcd.vhd|
+!i113 1
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Abehavior
+R1
+R2
+R3
+DEx4 work 10 binary_bcd 0 22 0:9zdOIA`o`LF2cmkOC^P3
+!i122 84
+l27
+L17 68
+Vkk0@KWb1@9aV]WcFQb8d>1
+!s100 :^^564DjXHL3Y8gXOzS=f0
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Emux2to1
+R0
+R2
+R3
+!i122 85
+R4
+Z14 8C:/Users/benkr/Documents/actual thing/Lab_1_ENEL453/MUX2TO1.vhd
+Z15 FC:/Users/benkr/Documents/actual thing/Lab_1_ENEL453/MUX2TO1.vhd
+l0
+L4 1
+VoQ7[^jKLJ52?kW53Nz3EN1
+!s100 ?B]`D<f;d>M0NU6;DQ`?G2
+R7
+32
+R8
+!i10b 1
+R9
+Z16 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/benkr/Documents/actual thing/Lab_1_ENEL453/MUX2TO1.vhd|
+Z17 !s107 C:/Users/benkr/Documents/actual thing/Lab_1_ENEL453/MUX2TO1.vhd|
+!i113 1
+R12
+R13
+Abehavior
+R2
+R3
+DEx4 work 7 mux2to1 0 22 oQ7[^jKLJ52?kW53Nz3EN1
+!i122 85
+l13
+L12 7
+VXB3Tl3lkENP>mQ<@K1Z>I3
+!s100 jA2oo80z485Y[`m712EBm0
+R7
+32
+R8
+!i10b 1
+R9
+R16
+R17
+!i113 1
+R12
+R13
+Esevensegment
+R0
+R2
+R3
+!i122 86
+R4
+Z18 8C:/Users/benkr/Documents/actual thing/Lab_1_ENEL453/SevenSegment.vhd
+Z19 FC:/Users/benkr/Documents/actual thing/Lab_1_ENEL453/SevenSegment.vhd
+l0
+L5 1
+VbD[XAzC][MhHDE[[CL3O@3
+!s100 OmVSC`U@3RF?cbR0BYfoK3
+R7
+32
+R8
+!i10b 1
+R9
+Z20 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/benkr/Documents/actual thing/Lab_1_ENEL453/SevenSegment.vhd|
+Z21 !s107 C:/Users/benkr/Documents/actual thing/Lab_1_ENEL453/SevenSegment.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R2
+R3
+DEx4 work 12 sevensegment 0 22 bD[XAzC][MhHDE[[CL3O@3
+!i122 86
+l20
+L11 50
+VZg=eT^T6U1XLQZSJ:@@gb3
+!s100 dcYihQ@U4TXj]105NfLck3
+R7
+32
+R8
+!i10b 1
+R9
+R20
+R21
+!i113 1
+R12
+R13
+Esevensegment_decoder
+Z22 w1602464072
+R2
+R3
+!i122 87
+R4
+Z23 8C:/Users/benkr/Documents/actual thing/Lab_1_ENEL453/SevenSegment_decoder.vhd
+Z24 FC:/Users/benkr/Documents/actual thing/Lab_1_ENEL453/SevenSegment_decoder.vhd
+l0
+L5 1
+VKjE^A[JI58zIZ_l229BiF2
+!s100 5AALkiToOD1k>]CGcBo?e0
+R7
+32
+R8
+!i10b 1
+R9
+Z25 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/benkr/Documents/actual thing/Lab_1_ENEL453/SevenSegment_decoder.vhd|
+Z26 !s107 C:/Users/benkr/Documents/actual thing/Lab_1_ENEL453/SevenSegment_decoder.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R2
+R3
+DEx4 work 20 sevensegment_decoder 0 22 KjE^A[JI58zIZ_l229BiF2
+!i122 87
+l17
+L13 41
+Vo=e:lAfD2_^C;7hz[HJKZ0
+!s100 :RKLICMaCA<^S>3gSNgnd0
+R7
+32
+R8
+!i10b 1
+R9
+R25
+R26
+!i113 1
+R12
+R13
+Etb_mux2to1
+Z27 w1602468763
+R2
+R3
+!i122 90
+R4
+Z28 8C:/Users/benkr/Documents/actual thing/Lab_1_ENEL453/tb_MUX2TO1.vhd
+Z29 FC:/Users/benkr/Documents/actual thing/Lab_1_ENEL453/tb_MUX2TO1.vhd
+l0
+L8 1
+VnMSZ61K]4ET6<A28WkmOd0
+!s100 SRHCZ<``M05c0Am2cdHg?1
+R7
+32
+Z30 !s110 1602470219
+!i10b 1
+Z31 !s108 1602470219.000000
+Z32 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/benkr/Documents/actual thing/Lab_1_ENEL453/tb_MUX2TO1.vhd|
+Z33 !s107 C:/Users/benkr/Documents/actual thing/Lab_1_ENEL453/tb_MUX2TO1.vhd|
+!i113 1
+R12
+R13
+Atb
+R2
+R3
+Z34 DEx4 work 10 tb_mux2to1 0 22 nMSZ61K]4ET6<A28WkmOd0
+!i122 90
+l26
+Z35 L11 69
+Z36 VcVHIRWf__I1OBBfg]DW@?1
+Z37 !s100 IzG;SaAT7gYRlfWaUh2OP1
+R7
+32
+R30
+!i10b 1
+R31
+R32
+R33
+!i113 1
+R12
+R13
+Etb_top_level
+Z38 w1602469610
+R2
+R3
+!i122 89
+R4
+Z39 8C:/Users/benkr/Documents/actual thing/Lab_1_ENEL453/tb_top_level.vhd
+Z40 FC:/Users/benkr/Documents/actual thing/Lab_1_ENEL453/tb_top_level.vhd
+l0
+L8 1
+VzIJcR]GGPS23@TVK:g=SK1
+!s100 2e@ZcHec5JS2MgNF8KA`21
+R7
+32
+R30
+!i10b 1
+R31
+Z41 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/benkr/Documents/actual thing/Lab_1_ENEL453/tb_top_level.vhd|
+Z42 !s107 C:/Users/benkr/Documents/actual thing/Lab_1_ENEL453/tb_top_level.vhd|
+!i113 1
+R12
+R13
+Atb
+R2
+R3
+DEx4 work 12 tb_top_level 0 22 zIJcR]GGPS23@TVK:g=SK1
+!i122 89
+l39
+L11 87
+VX:Q6oh1ZOD04Z6:i?[obR0
+!s100 EAbXFP:>cW>]YnB2lnVUm3
+R7
+32
+R30
+!i10b 1
+R31
+R41
+R42
+!i113 1
+R12
+R13
+Etop_level
+R0
+R1
+R2
+R3
+!i122 88
+R4
+Z43 8C:/Users/benkr/Documents/actual thing/Lab_1_ENEL453/top_level.vhd
+Z44 FC:/Users/benkr/Documents/actual thing/Lab_1_ENEL453/top_level.vhd
+l0
+L5 1
+Vi>6@SWYK@B>Yg8j<lbGPL3
+!s100 T@DoB]X1H^oAEfVSO8O=[1
+R7
+32
+R30
+!i10b 1
+R31
+Z45 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/benkr/Documents/actual thing/Lab_1_ENEL453/top_level.vhd|
+Z46 !s107 C:/Users/benkr/Documents/actual thing/Lab_1_ENEL453/top_level.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R1
+R2
+R3
+DEx4 work 9 top_level 0 22 i>6@SWYK@B>Yg8j<lbGPL3
+!i122 88
+l51
+L15 87
+V0Wg5NA]Ez5k=B0`WP<8Eb3
+!s100 jQ:HcFD60?:T_VjU;GmY>0
+R7
+32
+R30
+!i10b 1
+R31
+R45
+R46
+!i113 1
+R12
+R13
