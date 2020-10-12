@@ -1,0 +1,139 @@
+# Compile of binary_bcd.vhd was successful.
+# Compile of MUX2TO1.vhd was successful.
+# Compile of SevenSegment.vhd was successful.
+# Compile of SevenSegment_decoder.vhd was successful.
+# Compile of top_level.vhd was successful.
+vsim -gui work.tb_top_level
+# vsim -gui work.tb_top_level 
+# Start time: 19:52:13 on Oct 11,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.tb_top_level(tb)
+# Loading ieee.numeric_std(body)
+# Loading work.top_level(behavioral)
+# Loading work.sevensegment(behavioral)
+# Loading work.sevensegment_decoder(behavioral)
+# Loading work.binary_bcd(behavior)
+# Loading work.mux2to1(behavior)
+add wave -position end  sim:/tb_top_level/clk
+add wave -position end  sim:/tb_top_level/reset_n
+add wave -position end  sim:/tb_top_level/SW
+# Compile of tb_top_level.vhd was successful.
+# 6 compiles, 0 failed with no errors.
+add wave -position end  sim:/tb_top_level/HEX0
+add wave -position end  sim:/tb_top_level/HEX1
+add wave -position end  sim:/tb_top_level/HEX1
+add wave -position end  sim:/tb_top_level/HEX2
+add wave -position end  sim:/tb_top_level/HEX3
+add wave -position end  sim:/tb_top_level/HEX4
+add wave -position end  sim:/tb_top_level/HEX5
+run -all
+# Break key hit
+# Simulation stop requested.
+# Compile of binary_bcd.vhd was successful.
+# Compile of MUX2TO1.vhd was successful.
+# Compile of SevenSegment.vhd was successful.
+# Compile of SevenSegment_decoder.vhd was successful.
+# Compile of top_level.vhd was successful.
+# Compile of tb_top_level.vhd failed with 6 errors.
+# 6 compiles, 1 failed with 6 errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.top_level(behavioral)
+# Loading work.sevensegment(behavioral)
+# Loading work.sevensegment_decoder(behavioral)
+# Loading work.binary_bcd(behavior)
+# Loading work.mux2to1(behavior)
+# Compile of binary_bcd.vhd was successful.
+# Compile of MUX2TO1.vhd was successful.
+# Compile of SevenSegment.vhd was successful.
+# Compile of SevenSegment_decoder.vhd was successful.
+# Compile of top_level.vhd was successful.
+# Compile of tb_top_level.vhd failed with 6 errors.
+# 6 compiles, 1 failed with 6 errors.
+run -all
+# Break key hit
+# Simulation stop requested.
+# Compile of binary_bcd.vhd was successful.
+# Compile of MUX2TO1.vhd was successful.
+# Compile of SevenSegment.vhd was successful.
+# Compile of SevenSegment_decoder.vhd was successful.
+# Compile of top_level.vhd was successful.
+# Compile of tb_top_level.vhd failed with 6 errors.
+# 6 compiles, 1 failed with 6 errors.
+# Compile of binary_bcd.vhd was successful.
+# Compile of MUX2TO1.vhd was successful.
+# Compile of SevenSegment.vhd was successful.
+# Compile of SevenSegment_decoder.vhd was successful.
+# Compile of top_level.vhd was successful.
+# Compile of tb_top_level.vhd was successful.
+# 6 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_top_level(tb)
+# Loading work.top_level(behavioral)
+# Loading work.sevensegment(behavioral)
+# Loading work.sevensegment_decoder(behavioral)
+# Loading work.binary_bcd(behavior)
+# Loading work.mux2to1(behavior)
+run -all
+# Break key hit
+# Simulation stop requested.
+# Compile of binary_bcd.vhd was successful.
+# Compile of MUX2TO1.vhd was successful.
+# Compile of SevenSegment.vhd was successful.
+# Compile of SevenSegment_decoder.vhd was successful.
+# Compile of top_level.vhd was successful.
+# Compile of tb_top_level.vhd was successful.
+# 6 compiles, 0 failed with no errors.
+quit -sim
+# End time: 20:09:26 on Oct 11,2020, Elapsed time: 0:17:13
+# Errors: 0, Warnings: 2
+# Load canceled
+# Compile of binary_bcd.vhd was successful.
+# Compile of MUX2TO1.vhd was successful.
+# Compile of SevenSegment.vhd was successful.
+# Compile of SevenSegment_decoder.vhd was successful.
+# Compile of top_level.vhd was successful.
+# Compile of tb_top_level.vhd was successful.
+# Compile of tb_MUX2TO1.vhd failed with 6 errors.
+# 7 compiles, 1 failed with 6 errors.
+# Compile of binary_bcd.vhd was successful.
+# Compile of MUX2TO1.vhd was successful.
+# Compile of SevenSegment.vhd was successful.
+# Compile of SevenSegment_decoder.vhd was successful.
+# Compile of top_level.vhd was successful.
+# Compile of tb_top_level.vhd was successful.
+# Compile of tb_MUX2TO1.vhd was successful.
+# 7 compiles, 0 failed with no errors.
+vsim -gui work.tb_mux2to1
+# vsim -gui work.tb_mux2to1 
+# Start time: 20:10:12 on Oct 11,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.tb_mux2to1(tb)
+# Loading work.mux2to1(behavior)
+add wave -position end  sim:/tb_mux2to1/in1
+add wave -position end  sim:/tb_mux2to1/in2
+add wave -position end  sim:/tb_mux2to1/s
+add wave -position end  sim:/tb_mux2to1/mux_out
+run -all
+# Break key hit
+# Break in Architecture BEHAVIOR at C:/Users/benkr/Documents/actual thing/Lab_1_ENEL453/MUX2TO1.vhd line 15
+# Compile of binary_bcd.vhd was successful.
+# Compile of MUX2TO1.vhd was successful.
+# Compile of SevenSegment.vhd was successful.
+# Compile of SevenSegment_decoder.vhd was successful.
+# Compile of top_level.vhd was successful.
+# Compile of tb_top_level.vhd was successful.
+# Compile of tb_MUX2TO1.vhd was successful.
+# 7 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_mux2to1(tb)
+# Loading work.mux2to1(behavior)
+run -all
+# Break key hit
+# Simulation stop requested.
