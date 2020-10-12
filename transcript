@@ -1,0 +1,20 @@
+vsim -gui work.tb_mux2to1
+# vsim -gui work.tb_mux2to1 
+# Start time: 20:40:24 on Oct 11,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.tb_mux2to1(tb)
+# Loading work.mux2to1(behavior)
+add wave -position end  sim:/tb_mux2to1/in1
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: benkr  Hostname: SAM-SEPIOL  ProcessID: 14304
+#           Attempting to use alternate WLF file "./wlftd0nbbe".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftd0nbbe
+add wave -position end  sim:/tb_mux2to1/in2
+add wave -position end  sim:/tb_mux2to1/s
+add wave -position end  sim:/tb_mux2to1/mux_out
+run -all
+# Break key hit
+# Simulation stop requested.
